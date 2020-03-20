@@ -2,17 +2,18 @@
 
 本文将要介绍 webpack，Babel，babel-loader 的关系。理清楚他们各自做了什么事情。
 
-通常我们新建一个项目，会先配置webpack，然后配置babel；babel是一个编译工具，实际上，babel也是可以单独使用的。
+通常我们新建一个项目，会先配置webpack，然后配置Babel；Babel是一个编译工具，实际上，Babel也是可以单独使用的。
 
-下面我们从Babel出发，简单配置一个react项目，来清晰认识一下webpack和babel的关系。
+下面我们从Babel出发，简单配置一个react项目，来清晰认识一下webpack和Babel的关系。
 
-## Babel 和 Webpack 简介
+## Babel 和 webpack 简介
 
 Babel 是一个 JavaScript 编译器。（把浏览器不认识的语法，编译成浏览器认识的语法。）
 
 webpack 是一个现代 JavaScript 应用程序的静态模块打包器。（项目打包）
 
 下面会用到的：
+
 |名称|描述|
 |-|-|
 |@babel/cli|Babel附带了一个内置的CLI，可用于从命令行编译文件。|
