@@ -227,3 +227,7 @@ npm run build
 <code>webpack</code> 是打包工具，定义入口文件，将所有模块引入整理后，通过loader和plugin处理后，打包输出。
 
 <code>webpack</code> 通过 <code>babel-loader</code> 使用 <code>Babel</code> 。
+
+[代码地址：GitHub](https://github.com/whosMeya/babel-in-webpack)
+
+<br />
